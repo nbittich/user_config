@@ -56,6 +56,17 @@ return {
       )
     end,
   },
+  {
+        "neo-tree.nvim",
+        opts = {
+         --   hijack_netrw_behavior = "disabled",
+            filesystem = {
+                filtered_items = {
+                    visible = true,
+                },
+            }
+        }
+    },
   -- By adding to the which-key config and using our helper function you can add more which-key registered bindings
   -- {
   --   "folke/which-key.nvim",
