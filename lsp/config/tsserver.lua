@@ -1,4 +1,5 @@
 return {
+  filetypes= {"typescript", "typescriptreact", "typescript.tsx", "javascript"},
   settings = {
     typescript = {
       inlayHints = {
