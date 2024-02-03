@@ -20,7 +20,7 @@ return {
     }
 
   },
-    { import = "astrocommunity.pack.java" },
+    -- { import = "astrocommunity.pack.java" },
     { import = "astrocommunity.pack.typescript" },
      { import = "astrocommunity.colorscheme.catppuccin" },
 
